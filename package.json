@@ -1,0 +1,30 @@
+{
+  "name": "kilos_to_libras",
+  "version": "0.1.0",
+  "description": "Conversor de kilogramas a libras y viceversa",
+  "main": "dist/src/main.js",
+  "scripts": {
+    "build": "babel src/main.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderJL/Kilos_to_libras.git"
+  },
+  "keywords": [
+    "kilos",
+    "libras",
+    "javascript"
+  ],
+  "author": "Jhon Leon <jhonalexander.10.07.93@gmail.com> (https://twitter.com/AlexJL1)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexanderJL/Kilos_to_libras/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
